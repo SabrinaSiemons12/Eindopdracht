@@ -1,0 +1,115 @@
+body {
+    background-image: url("../images/water.JPG");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+	font-family:Verdana;
+    margin: 0;
+    color: #000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(0, 26, 102, 0.6);
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #001a66;
+}
+.active
+{
+    background-color: #001a66;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+section {
+  float: left;
+  width: 30%;
+}
+aside {
+  float: right;
+  width: 70%;
+}
+
+#mySidenav a:hover {
+    left: 0;
+    width: 150px;
+}
+
+#actionplan {
+    top: 80px;
+    width: 170px;
+    background-color: #001a66;
+}
+
+#smartgoals {
+    top: 140px;
+    width: 170px;
+    background-color: #001a66;
+}
+
+#reflection {
+    top: 228px;
+    width: 170px;
+    background-color: #001a66;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+footer{
+
+    background-color:  rgb(0, 26, 102, 0.7);
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
